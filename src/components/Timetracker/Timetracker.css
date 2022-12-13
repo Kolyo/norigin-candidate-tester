@@ -1,0 +1,6 @@
+.timetracker{
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background: var(--primary-color);
+}

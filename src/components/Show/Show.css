@@ -1,0 +1,16 @@
+.show {
+    flex: 0 0 auto;
+    background: var(--dark-background);
+    border: 1px solid var(--border-color);
+    padding: 3px 5px;
+    box-sizing: border-box;
+}
+
+.show:nth-child(odd) {
+    background: #393939;
+}
+
+.show .time{
+    color: #9b9b9b;
+    font-size: 14px;
+}

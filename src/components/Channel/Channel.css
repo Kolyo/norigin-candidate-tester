@@ -1,0 +1,22 @@
+.channel {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-left: var(--table-offset);
+}
+
+.channel .title{
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    box-sizing: border-box;
+    margin-left: calc(var(--table-offset) * -1);
+    background: var(--global-background);
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    box-shadow: 5px 8px 5px 3px var(--dark-background);
+    height: 70px;
+    width: var(--table-offset);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

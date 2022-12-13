@@ -1,0 +1,7 @@
+.hourSlot{
+    flex: 0 0 300px;  /* 60 minutes times 5 - the constant we used in Show.js for setting the width of the show boxes*/
+    border-left: 1px solid var(--border-color);
+    padding: 10px 5px;
+    font-weight: 600;
+    box-sizing: border-box;
+}

@@ -1,0 +1,21 @@
+The solution can be run with:
+ - npm run start - To build and run the mock backend.
+ - npm run build - To build the UI. If you'd like to work actively you can run npm run watch so webpack will track your
+  changes automatically.
+- npm run dev - To start the React application at port 9500.
+
+Here are some comments:
+- Unfortunately I had around 8 work hours for the task, so it's not in a pixel perfect state. I think the most
+  important functionality should be there though.
+- Running the API is not explained well enough. On a Windows machine I was unable to run it so had
+  to reside to WSL. Someone with less general computer knowledge could have been blocked.
+- The API images sources are broken, thus I had to reside to the channel name.
+- Not being able to use builders could create lots of places for mistakes. I'm pretty sure my setup is far from great.
+  I understand the reasoning behind this request though.
+- The global variables could have been extracted to a utility class.
+- Didn't have time for implementing panning scroll on desktop. On mobile, it's native so no worries there.
+- CSS preprocessor purposefully not added due to the small size of the application.
+- The time tracker bar is purposefully not automatically refreshing on a given interval. If needed could be
+  easily added.
+
+Feel free to contact me at kolyokolevp@gmail.com if there are any questions.
